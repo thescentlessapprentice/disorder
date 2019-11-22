@@ -1,0 +1,43 @@
+h1 {
+	color: white;
+	font-family: "Arial";
+	font-size: 60px;
+	margin-left: 585px;
+}
+
+body {
+	background-color: black;
+}
+
+img {
+	height: 300px;
+	margin-left: 625px;
+	position: fixed;
+}
+
+
+#firstbox {
+
+	height: 0.8px;
+	width: 800px;
+	margin-top: 250px;
+	background-color: white;
+	animation-name: stringOne;
+	animation-duration: 1.11s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	position: fixed;
+
+}
+
+@keyframes stringOne {
+	from{
+	width: 0px;
+	}
+
+	to{
+	width: 1500px;4
+}
+
+
+
